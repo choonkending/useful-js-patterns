@@ -15,4 +15,4 @@ Component.doThis(var1)
 
 ```
 
-Each function that returns an `instance` of the component
+Each Instance returns some form of `builder` object. It isn’t until you call `build` on this that you get back a fully fledged object.
