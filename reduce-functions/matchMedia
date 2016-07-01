@@ -1,0 +1,2 @@
+const includeLayout = (result, definition) => _.compact([result, definition || '']).join(',');
+const matchesLayout = (...sizeDefinitions) => matches(sizeDefinitions.reduce(includeLayout,''));
